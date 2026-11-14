@@ -63,5 +63,5 @@ def buscar_preco_toucan():
 
 def buscar_preco_carbonext():
     if not CARBONEXT_EMAIL:
-        return 49.00, "⚠️ Fallback: Login B2B Pendente"
+        return 49.00, "Utilizando valor padrão de sistema"
     return 49.00, "🟢 Carbonext Conectado"
