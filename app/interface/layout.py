@@ -18,7 +18,7 @@ def render_layout():
     st.sidebar.title("Navegação")
     menu = st.sidebar.radio("Selecione a aba:", ["⚙️ Configurações Técnicas", "📊 Calculadora de Obra", "📈 Dashboard de Impacto", "📋 Memorial Técnico"])
     
-    st.title("Sistema de Gestão de Carbono - TCC Beta")
+    st.title("Sistema de Gestão de Carbono")
     
     if 'fatores_personalizados' not in st.session_state:
         st.session_state.fatores_personalizados = {mat: info["fator"] for mat, info in EMISSOES_MATERIAIS.items()}
