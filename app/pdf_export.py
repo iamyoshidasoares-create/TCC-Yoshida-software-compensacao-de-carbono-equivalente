@@ -15,7 +15,7 @@ def gerar_pdf_memorial(dados_calculados):
     width, height = A4
 
     p.setFont("Helvetica-Bold", 16)
-    p.drawString(50, height - 50, "oii zecao, te amu")
+    p.drawString(50, height - 50, "Memorial de Gestão de Carbono Multimercado")
     
     p.setFont("Helvetica", 10)
     p.drawString(50, height - 70, f"Documento Gerado em: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
