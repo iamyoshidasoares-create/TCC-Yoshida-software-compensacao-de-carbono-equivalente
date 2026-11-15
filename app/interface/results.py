@@ -32,7 +32,7 @@ def render_graficos(resultados):
 
         with col2:
             fig_pie = px.pie(df_carbono, values='tCO2e', names='Material', hole=0.4,
-                             title="Proportion do Impacto",
+                             title="Proporção do Impacto",
                              color_discrete_sequence=px.colors.qualitative.Pastel)
             st.plotly_chart(fig_pie, use_container_width=True)
     else:
